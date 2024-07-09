@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: rediss-daemon
+  labels:
+    env: demo
+spec:
+  template:
+    metadata:
+      labels:
+        env: demo
+      name: redis
+    spec:
+      containers:
+      - name: rediss-daemon
+        image: rediss
+  selector:
+    matchLabels:
+      env: demo
+
