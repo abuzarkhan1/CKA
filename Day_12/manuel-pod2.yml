@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2024-07-10T16:31:27Z"
+  labels:
+    run: redis
+    tier: backend
+  name: redis
+  namespace: default
+  resourceVersion: "228783"
+  uid: ad2fcd10-5643-4865-9b85-a04f4bc3323a
+spec:
+  containers:
+    - image: redis
+      name: redis-container
+  nodeName: cka-cluster2-worker
