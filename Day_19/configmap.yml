@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  firstname: abuzar
+  lastname: khan
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: app-cm
