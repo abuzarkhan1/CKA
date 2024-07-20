@@ -1,1 +1,1 @@
-CKAD
+CKA
