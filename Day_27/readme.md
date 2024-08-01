@@ -7,17 +7,6 @@ Along with control plane components(ApiServer, ETCD, Controller Manager, Schedul
 
 ### Ways to install Kubernetes
 
-![image](https://github.com/user-attachments/assets/5391de53-36bc-4574-81cf-4b1fefbda9e3)
-
->Note: In this demo, we will be installing Kubernetes on VMs on cloud(Self-Managed)
-
-### Steps to set up the Kubernetes cluster
-
-![image](https://github.com/user-attachments/assets/e0943ad5-2d13-4128-8147-1ef644c62955)
-
-
->Note: If using a Mac Silicon chip, Multipass is the recommended choice as Virtualbox has some compatibility issues or you can spin up virtual machines on the cloud and use that
-
 
 **If you are using AWS EC2 servers, you need to allow specific traffic on specific ports as below**
 
@@ -25,7 +14,6 @@ Along with control plane components(ApiServer, ETCD, Controller Manager, Schedul
 2) Create 2 security groups, attach 1 to the master and the other to two worker nodes using the below details.
 https://kubernetes.io/docs/reference/networking/ports-and-protocols/
 
-![image](https://github.com/user-attachments/assets/58d66bcb-ed00-453f-99b2-8df9f4393cac)
 
 
 4) If you are using AWS EC2, you need to disable **source destination check** for the VMs using the [doc](https://docs.aws.amazon.com/vpc/latest/userguide/work-with-nat-instances.html#EIP_Disable_SrcDestCheck)
