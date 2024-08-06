@@ -6,9 +6,9 @@ spec:
   containers:
     - name: redis
       image: redis
-  volumeMounts:
-    - name: redis-storage
-      mountPath: /data/redis
+      volumeMounts:
+        - name: redis-storage
+          mountPath: /dat/redis
   volumes:
     - name: redis-storage
       emptyDir: {}
