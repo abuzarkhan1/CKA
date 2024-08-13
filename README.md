@@ -148,3 +148,5 @@ kubectl run hello-world-pod --image=busybox --restart=Never --command -- sh -c "
 ```
 
 <kbd>![image](https://github.com/paragpallavsingh/kubernetes-kickstarter/assets/40052830/bace1884-bbba-4e2f-8fb2-83bbba819d08)</kbd>
+
+## For more information about kubernetes you can mail me at abuzarkhan1242@gmail.com
